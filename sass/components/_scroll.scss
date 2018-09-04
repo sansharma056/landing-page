@@ -1,0 +1,13 @@
+.scroll {
+    position: relative;
+
+    &__img {
+        position: fixed;
+        width: 3.8rem;
+        height: 3.8rem;
+        bottom: 2rem;
+        right: 2rem;
+        cursor: pointer;
+        transition: all .3s;
+    }
+}

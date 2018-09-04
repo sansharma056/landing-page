@@ -1,0 +1,13 @@
+.blog-content {
+    background-color: $color-grey-light-2;
+    
+    &__content {
+        padding: 3rem;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+    }
+
+}

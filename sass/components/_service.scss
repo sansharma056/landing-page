@@ -1,0 +1,12 @@
+.service {
+    color: $color-white;
+    text-align: center;
+
+    & .heading--primary {
+        text-shadow: 2px 2px #aaa;
+    }
+
+    &__text-content {
+        font-size: 1.8rem;
+    }
+}

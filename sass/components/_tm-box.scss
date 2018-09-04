@@ -1,0 +1,23 @@
+.tm-box {
+    margin-top: 3rem;
+    background-color: $color-grey-light-2;
+
+    &__img {
+        width: 100%;
+        display: block;
+    }
+
+    &__content {
+        padding: 5rem;
+    }
+
+    &__paragraph {
+        &:not(:last-child) {
+            margin-bottom: 1.4rem;
+        }
+    }
+
+    &__btn {
+        margin-top: 4rem;
+    }
+}
